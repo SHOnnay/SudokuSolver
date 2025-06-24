@@ -17,6 +17,7 @@ void printSudoku(int sudoku[][9])
     }
 }
 
+
 //check if safe
 bool isSafe(int sudoku[][9], int row, int col, int digit)
 {
@@ -101,6 +102,7 @@ void input(int sudoku[9][9])
         }
     }
 }
+
 
 int main()
 {
