@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//printing the solution
 void printSudoku(int sudoku[][9])
 {
     for (int i = 0; i < 9; i++)
@@ -16,6 +17,7 @@ void printSudoku(int sudoku[][9])
     }
 }
 
+//check if safe
 bool isSafe(int sudoku[][9], int row, int col, int digit)
 {
     // vertical
@@ -88,6 +90,7 @@ bool sudokuSolver(int sudoku[][9], int row, int col)
     return false;
 }
 
+//user input
 void input(int sudoku[9][9])
 {
     for (int i = 0; i < 9; i++)
